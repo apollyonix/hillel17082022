@@ -13,12 +13,12 @@ import java.io.IOException;
  */
 
 public class PetTest {
-  @Test
+//  @Test
   public void petTest() throws IOException {
     new PetEndpoint().getPetById(111);
   }
 
-  @Test
+//  @Test
   public void createPet() throws IOException {
     PetEndpoint petEndpoint = new PetEndpoint();
 //    petEndpoint.createPet();
